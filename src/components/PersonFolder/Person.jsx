@@ -1,9 +1,9 @@
 
-function App() {
+function Person() {
 
   return (
     <h1>Template</h1>
   )
 }
 
-export default App
+export default Person
