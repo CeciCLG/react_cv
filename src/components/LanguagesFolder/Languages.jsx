@@ -1,6 +1,5 @@
 
 function Languages({ dataLanguages }) {
-    console.log(dataLanguages);
 
     return (
         <section>
