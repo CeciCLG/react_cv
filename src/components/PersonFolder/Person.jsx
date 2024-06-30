@@ -1,6 +1,5 @@
 
 function Person({ dataHero }) {
-  console.log(dataHero);
   const img = dataHero.image;
   const surname = dataHero.adress;
   const name = dataHero.name;

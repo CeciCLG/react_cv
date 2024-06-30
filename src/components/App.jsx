@@ -10,6 +10,7 @@ function App() {
             <Person dataHero={hero}></Person>
             <main>
                 <AboutMe dataHero={hero} />
+
             </main>
         </>
     )
