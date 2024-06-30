@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Person from './components/PersonFolder/Person'
+import App from './components/App'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Person />
+    <App />
   </React.StrictMode>,
 )
