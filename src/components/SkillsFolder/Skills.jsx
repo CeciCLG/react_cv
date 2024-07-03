@@ -1,6 +1,6 @@
 function Skills({ dataHabilities }) {
     const habilities = dataHabilities.map((hability) => (
-        <li>{hability}</li>
+        <li>🔧{hability}</li>
     ))
 
     return (

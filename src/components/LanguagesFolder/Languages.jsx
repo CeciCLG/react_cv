@@ -6,8 +6,8 @@ function Languages({ dataLanguages }) {
             <h2>Languages</h2>
             <ul>
                 <li>{dataLanguages.language}</li>
-                <li>Writing: {dataLanguages.wrlevel}</li>
-                <li>Speaking: {dataLanguages.splevel}</li>
+                <li>✏️ Writing: {dataLanguages.wrlevel}</li>
+                <li>💭 Speaking: {dataLanguages.splevel}</li>
             </ul>
         </section>
     )

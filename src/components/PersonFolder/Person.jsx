@@ -17,11 +17,11 @@ function Person({ dataHero }) {
       <h1>{name} {surname}</h1>
       <address>
         <ul>
-          <li>🗺️{city}</li>
-          <li>📅{birthday}</li>
-          <li>✉️{email}</li>
-          <li>📱{phoneNum}</li>
-          <li><a href={gitContact}>💾 gitHub</a></li>
+          <li key="1person">🗺️{city}</li>
+          <li key="2person">📅{birthday}</li>
+          <li key="3person">✉️{email}</li>
+          <li key="4person">📱{phoneNum}</li>
+          <li key="5person"><a href={gitContact}>💾 gitHub</a></li>
         </ul>
       </address>
     </header>
