@@ -1,7 +1,7 @@
 export default function AboutMe({ dataHero }) {
     const arrayAboutMe = dataHero.aboutMe;
 
-    let dataList = arrayAboutMe.map((data) => (
+    const dataList = arrayAboutMe.map((data) => (
         <li>{data.info}</li>
     ));
 
